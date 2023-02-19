@@ -1,0 +1,29 @@
+@use "../../assets/variables" as *;
+
+.contact {
+  padding: 2rem;
+
+  &-container {
+    margin: 1rem;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+  &__text {
+    font-family: $text-font;
+    font-size: $small-font;
+    color: $black-colour;
+  }
+
+  &__img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.2rem;
+  }
+}

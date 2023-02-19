@@ -1,0 +1,22 @@
+@use "../../assets/variables" as *;
+.button--primary {
+  border: 0.25rem solid $black-colour;
+  border-radius: 0.8rem;
+  margin: 0.3rem;
+  width: 7rem;
+  height: 2.5rem;
+  background-color: $button-colour;
+  font-size: $small-font;
+  font-family: $title-font;
+  font-weight: bold;
+  a:link {
+    text-decoration: none;
+    color: $white-colour;
+  }
+  &:hover {
+    transform: scale(1.03);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}

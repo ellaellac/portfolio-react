@@ -1,0 +1,17 @@
+@use "../../assets/variables" as *;
+
+.about {
+  width: 80vw;
+  padding: 2rem;
+
+  &__text {
+    font-family: $text-font;
+    font-size: $medium-font;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,19 @@
+@use "../../assets/variables" as *;
+
+.heading {
+  background-color: $primary-colour;
+  border-radius: 0.7rem;
+  margin-bottom: 2rem;
+  padding: 0.4rem;
+  width: min-content;
+
+  &__text {
+    border: 0.15rem dashed $white-colour;
+    border-radius: 0.7rem;
+    width: max-content;
+    padding: 0.2rem 1.3rem;
+    font-family: $title-font;
+    font-size: $medium-font;
+    color: $black-colour;
+  }
+}
