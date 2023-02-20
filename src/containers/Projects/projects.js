@@ -68,7 +68,7 @@ const projects = [
       "This is a Full Stack Project using React, Spring Boot, MySQL. The Menu App allows users to CRUD ( Create, Read, Update, Delete) a local database. Users can navigate different pages to view, add and edit Menu",
     preview:
       "https://user-images.githubusercontent.com/117093750/219903238-b90f2260-829e-43ca-826a-0680ff69a427.mp4",
-    code: "https://github.com/ellaellac/full-stack-food-project",
+    code: "https://github.com/ellaellac/full-stack-project",
   },
 ];
 
